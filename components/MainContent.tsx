@@ -13,7 +13,7 @@ const MainContent = () => {
   return (
     <Box flex="1" p="4">
       <Button onClick={onOpen} mb="4" bg={"gray.200"} borderRadius={"50px"} padding={"12px 30px"}>
-        Create a post
+        Open modal
       </Button>
       {isOpen && <CustomModal isOpen={isOpen} onClose={onClose} />}
       <VStack spacing={5}></VStack>
